@@ -37,6 +37,10 @@ p{
 
 }
 
+.abt-title{
+  text-align: right;
+}
+
 .section-heading{
   font-size: 3rem;
   line-height: 1.5;
@@ -75,7 +79,10 @@ li{
 
 .white-section{
   background-color: #fffff;
+}
 
+.offwhite-section{
+  background-color: #FAFAFA;
 }
 
 /* NAVBAR
@@ -151,7 +158,7 @@ li{
 
 
 .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: black;
 }
 
 .scrolled-text{
@@ -178,11 +185,8 @@ li{
 /* Title Image */
 
 .title-image{
-  width: 50%;
-  position: absolute;
-   left: 50%;
-   top: 0px;
-
+  width: 100%;
+  position: relative;
 }
 
 .mt-3{
@@ -358,13 +362,19 @@ li{
   #title{
     text-align: center;
   }
+  .big-heading{
+        text-align: center;
+  }
+  .bottom-txt{
+            text-align: center;
 
+  }
   .title-image{
-    position: static;
-    transform: rotate(0);
-    width: 80%;
-    top: 0px;
+    display:none;
+  }
 
+  .sidebar-img{
+    display: none;
   }
 }
 
