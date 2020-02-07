@@ -38,7 +38,14 @@ p{
 }
 
 .abt-title{
+  padding-top: 100px;
   text-align: right;
+}
+
+.abt-body{
+  font-size:1.4rem;
+  text-align: right;
+  padding-top: 30px;
 }
 
 .section-heading{
@@ -59,10 +66,10 @@ li{
 .commercial-clicked{
   color:red;
 }
-
+/* 
 .platosDesc{
   display: none;
-}
+} */
 
 /* Containers  */
 .container-fluid{
@@ -285,6 +292,13 @@ padding-top: 60px;
   object-fit: cover;
 }
 
+.owl-carousel owl-wrapper-outer{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+}
+
 .list{
   width: 220px;
   background-color: #220B02;
@@ -375,6 +389,16 @@ li{
 
   .sidebar-img{
     display: none;
+  }
+
+  .abt-title{
+    padding-top: 0px;
+    color: #451D0D!important;
+    text-align: center;
+  }
+
+  .abt-body{
+    text-align: center;
   }
 }
 

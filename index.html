@@ -7,19 +7,15 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/fe4d264c15.js"></script>
-
+   <!-- Owl Carousel -->
+   <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+   <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+ 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900,700|Ubuntu&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
 
   <!-- Bootstrap Scripts -->
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -93,9 +89,8 @@
         </div>
       </div>
       <!-- Table and description -->
-
+      
       <div class="row table-desc">
-
         <div class="col-4">
           <div class="list">
             <ul>
@@ -118,32 +113,17 @@
                 </div>
               </div>
             </div>
-                <div class="row">
-
-                  <div class="col-3 gal platosDesc">
-                    <img class="gal-pic" src="images/plato1.png">
-                  </div>
-                        <div class="col-3 gal platosDesc">
-                          <img class="gal-pic" src="images/plato2.png">
-                        </div>
-                        <div class="col-3 gal platosDesc">
-                          <img class="gal-pic" src="images/plato3.png">
-                        </div>
-                        <div class="col-3 gal platosDesc">
-                          <img class="gal-pic" src="images/plato4.png">
-                        </div>
-                      </div>
-      </div>
-
-
-            <!-- TABLAS BOTANERAS -->
-              <div id="other" style="display: none">Other stuff
-                <div id="all" style="display: none">All stuff</div>
-
-
-              </div>
-              <div id="pro-bono" style="display: none">Pro-bono stuff</div>
           </div>
+
+              <div class="row">
+                  <div class="owl-carousel">
+                    <div> <img class="gal-pic" src="images/plato1.png"> </div>
+                    <div> <img class="gal-pic" src="images/plato2.png"> </div>
+                    <div> <img class="gal-pic" src="images/plato3.png"> </div>
+                    <div> <img class="gal-pic" src="images/plato4.png"> </div>
+                    <div> <img class="gal-pic" src="images/plato1.png"> </div>
+                  </div>
+              </div> 
         </div>
       </div>
 </div>
@@ -244,7 +224,14 @@
     </div>
   </footer>
 
+  <!-- <script src="jquery.min.js"></script> -->
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
   <script src="index.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 </body>
 
