@@ -85,7 +85,7 @@ li{
 }
 
 .white-section{
-  background-color: #fffff;
+  background-color: white;
 }
 
 .offwhite-section{
@@ -292,16 +292,17 @@ padding-top: 60px;
   object-fit: cover;
 }
 
-.owl-carousel owl-wrapper-outer{
+/* .owl-carousel owl-wrapper-outer{
   overflow: hidden;
   position: relative;
   width: 100%;
 }
 }
-
+ */
 .list{
   width: 220px;
   background-color: #220B02;
+  /* background-color: black; */
 }
 li{
   color: white;

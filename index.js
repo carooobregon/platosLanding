@@ -24,6 +24,44 @@ $("#platos").click(function(){
  });
 
  $(document).ready(function(){
+    $("#alargadatoggle").click(function(){
+        console.log("HIDE");
+        document.getElementById('titlep').innerHTML = 'BOTANERA ALARGADA';
+        document.getElementById('contentp').innerHTML = 'Botaneras alargadas para lucir tus mejores platillos.';
+        document.getElementById('car1').src = "images/plato3.png";
+    });
+  });
+
+  $(document).ready(function(){
+    $("#tequitoggle").click(function(){
+        console.log("HIDE");
+        document.getElementById('titlep').innerHTML = 'TEQUILEROS';
+        document.getElementById('contentp').innerHTML = 'Tequileros alargadas para lucir tus mejores platillos.';
+        document.getElementById('car1').src = "images/plato4.png";
+    });
+  });
+
+ $(document).ready(function(){
+    $("#platostoggle").click(function(){
+        console.log("HIDE");
+        document.getElementById('titlep').innerHTML = 'PLATOS PARRILLEROS';
+        document.getElementById('contentp').innerHTML = 'Platos individuales en madera de pino o parota grabados con el logo que desees. Perfeccionados para ser prácticos, estéticos y hacer lucir tus mejores platillos.';
+        document.getElementById('car1').src = "images/plato1.png";
+
+    //   $(".platos").toggle();
+    });
+  });
+
+  $(document).ready(function(){
+    $("#botaneratoggle").click(function(){
+        console.log("HIDE");
+        document.getElementById('titlep').innerHTML = 'TABLAS BOTANERAS';
+        document.getElementById('contentp').innerHTML = 'Botaneras para lucir tus mejores platillos.';
+        document.getElementById('car1').src = "images/plato2.png";
+    });
+  });
+
+ $(document).ready(function(){
 	$(".owl-carousel").owlCarousel();
   });
   
@@ -47,3 +85,4 @@ $("#platos").click(function(){
         }
     }
 })
+

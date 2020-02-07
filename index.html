@@ -14,6 +14,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900,700|Ubuntu&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap Scripts -->
 </head>
@@ -94,36 +95,58 @@
         <div class="col-4">
           <div class="list">
             <ul>
-              <li style="padding-top: 10px;"> <a id="#platos"> PLATOS PARRILLEROS</a></li>
-              <li><a id="#botaneras">TABLAS BOTANERAS</a> </li>
-              <li><a id="#alargadas">BOTANERAS ALARGADAS</a></li>
-              <li><a id="#tequileros">TEQUILEROS</a></li>
+              <li style="padding-top: 10px;" id="platostoggle"> PLATOS PARRILLEROS</li>
+              <li><a id="botaneratoggle">TABLAS BOTANERAS</a> </li>
+              <li id="alargadatoggle">BOTANERAS ALARGADAS </li>
+              <li id="tequitoggle">TEQUILEROS</li>
             </ul>
       </div>
     </div>
-          <div class="col-8">
+          <!-- PLATOS PARRILLEROS -->
+          <div class="col-8 platos">
             <div class="platosDesc">
-
-            <!-- PLATOS PARRILLEROS -->
               <div class="desc">
-                  <h3> PLATOS PARRILLEROS </h3>
-                  <p class="txt-desc"> Platos individuales en madera de pino o parota grabados con el logo que desees.
+                  <h3 id="titlep"> PLATOS PARRILLEROS </h3>
+                  <p class="txt-desc" id="contentp"> Platos individuales en madera de pino o parota grabados con el logo que desees.
                       Perfeccionados para ser prácticos, estéticos y hacer lucir tus mejores platillos.</p>
                   <p class="txt-desc">     Tamaño: 41 Cms. x 18 Cms o 30 Cms. x 25 Cms. </p>
                 </div>
               </div>
             </div>
           </div>
-
-              <div class="row">
+              <div class="row platos">
                   <div class="owl-carousel">
-                    <div> <img class="gal-pic" src="images/plato1.png"> </div>
+                    <div> <img class="gal-pic" id="car1" src="images/plato1.png"> </div>
                     <div> <img class="gal-pic" src="images/plato2.png"> </div>
                     <div> <img class="gal-pic" src="images/plato3.png"> </div>
                     <div> <img class="gal-pic" src="images/plato4.png"> </div>
                     <div> <img class="gal-pic" src="images/plato1.png"> </div>
                   </div>
-              </div> 
+              </div>
+            <!-- BOTANERAS -->
+              <div class="col-8 botanera" hidden>
+                <div class="platosDesc">
+                  <div class="desc">
+                      <h3> Botanera  </h3>
+                      <p class="txt-desc" id="contentb"> Botaneras individuales en madera de pino o parota grabados con el logo que desees.
+                          Perfeccionados para ser prácticos, estéticos y hacer lucir tus mejores platillos.</p>
+                      <p class="txt-desc">     Tamaño: 41 Cms. x 18 Cms o 30 Cms. x 25 Cms. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  <div class="row botanera hidden" hidden>
+                      <div class="owl-carousel">
+                        <div> <img class="gal-pic" src="images/plato1.png"> </div>
+                        <div> <img class="gal-pic" src="images/plato2.png"> </div>
+                        <div> <img class="gal-pic" src="images/plato3.png"> </div>
+                        <div> <img class="gal-pic" src="images/plato4.png"> </div>
+                        <div> <img class="gal-pic" src="images/plato1.png"> </div>
+                      </div>
+                  </div>
+            
+              
+
         </div>
       </div>
 </div>
@@ -133,7 +156,7 @@
 
   <!-- Press -->
 
-  <section class="colored-section"  id="press">
+  <!-- <section class="colored-section"  id="press">
     <img class"press-logo" src="images/techcrunch.png" alt="tc-logo">
     <img class"press-logo" src="images/tnw.png" alt="tnw-logo">
     <img class"press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
@@ -141,7 +164,7 @@
 
   </section>
 
-
+ -->
   <!-- Pricing -->
 
   <section class="white-section"  id="pricing">
