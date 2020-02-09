@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Nunito Sans', sans-serif;
   text-align: center;
@@ -74,7 +75,6 @@ li{
 /* Containers  */
 .container-fluid{
   padding: 7% 15%;
-  height: 720px;
 }
 
 /* Sections */
@@ -269,7 +269,7 @@ padding-top: 60px;
 /* Testimonial Section */
 
 .table-desc{
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .prod-sec{
@@ -301,7 +301,7 @@ padding-top: 60px;
  */
 .list{
   width: 220px;
-  background-color: #220B02;
+  /* background-color: #220B02; */
   /* background-color: black; */
 }
 li{
@@ -425,3 +425,62 @@ li{
 .ic {
   margin: 20px 10px;
 }
+
+/* BUTTON */
+
+/* // Basic Button Style */
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #220B02;
+  border-radius: 0.6em;
+  color: #220B02;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: .5em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+}
+.btn:hover{
+  color: #fff;
+  outline: 0;
+}
+
+.btn:focus{
+  box-shadow: 0 0 40px 40px #220B02 inset;
+  color: #fff;
+}
+/* //BUTTON 1 */
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.first:hover{
+  box-shadow: 0 0 40px 40px #220B02 inset;
+}
+
+.hovbtn{
+  box-shadow: 0 0 40px 40px #220B02 inset;
+  color: #fff;
+}
+
+.mobileShow { display: none;}
+    /* Smartphone Portrait and Landscape */
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ .mobileShow { display: inline;}}
+
+    .mobileHide { display: inline;}
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){  .mobileHide { display: none;}}

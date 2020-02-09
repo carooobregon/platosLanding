@@ -17,6 +17,8 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap Scripts -->
+
+ 
 </head>
 
 <body>
@@ -78,8 +80,7 @@
   </section>
   <!-- Testimonials -->
 
-  <section class="prod-sec" id="productos">
-
+  <section class="prod-sec mobileHide" id="productos">
     <div class="container-fluid">
       <!-- Title -->
       <div class="row">
@@ -90,21 +91,25 @@
         </div>
       </div>
       <!-- Table and description -->
-      
       <div class="row table-desc">
-        <div class="col-4">
+        <div class="col-lg-4">
           <div class="list">
             <ul>
-              <li style="padding-top: 10px;" id="platostoggle"> PLATOS PARRILLEROS</li>
+              <!-- <li style="padding-top: 10px;" id="platostoggle"> PLATOS PARRILLEROS</li> -->
+              <button class="btn first" id="platostoggle">PLATOS PARRILLEROS</button>
+              <button class="btn first" id="botaneratoggle">TABLAS BOTANERAS</button>
+              <button class="btn first" id="alargadatoggle">BOTANERAS ALARGADAS</button>
+              <button class="btn first" id="tequitoggle">   TEQUILEROS    </button>
+<!-- 
               <li><a id="botaneratoggle">TABLAS BOTANERAS</a> </li>
               <li id="alargadatoggle">BOTANERAS ALARGADAS </li>
-              <li id="tequitoggle">TEQUILEROS</li>
+              <li id="tequitoggle">TEQUILEROS</li> -->
             </ul>
-      </div>
-    </div>
+          </div>
+        </div>
           <!-- PLATOS PARRILLEROS -->
-          <div class="col-8 platos">
-            <div class="platosDesc">
+      <div class="col-lg-8 platos">
+        <div class="platosDesc">
               <div class="desc">
                   <h3 id="titlep"> PLATOS PARRILLEROS </h3>
                   <p class="txt-desc" id="contentp"> Platos individuales en madera de pino o parota grabados con el logo que desees.
@@ -144,15 +149,48 @@
                         <div> <img class="gal-pic" src="images/plato1.png"> </div>
                       </div>
                   </div>
-            
-              
-
         </div>
       </div>
 </div>
 
   </section>
 
+  <section class="mobileShow prodmob">
+    <div class="container-fluid">
+      <!-- Title -->
+      <div class="row">
+          <div class="heading">
+            <h2>Nuestros productos </h2>
+          </div>
+      </div>
+      <div class="platosDesc">
+        <div class="desc">
+            <h3 id="titlep"> PLATOS PARRILLEROS </h3>
+            <p class="txt-desc" id="contentp"> Platos individuales en madera de pino o parota grabados con el logo que desees.
+                Perfeccionados para ser prácticos, estéticos y hacer lucir tus mejores platillos.</p>
+            <p class="txt-desc">     Tamaño: 41 Cms. x 18 Cms o 30 Cms. x 25 Cms. </p>
+          </div>
+        </div>
+        <div class="row platos">
+          <div class="owl-carousel">
+            <div> <img class="gal-pic" id="car1" src="images/plato1.png"> </div>
+            <div> <img class="gal-pic" src="images/plato2.png"> </div>
+            <div> <img class="gal-pic" src="images/plato3.png"> </div>
+            <div> <img class="gal-pic" src="images/plato4.png"> </div>
+            <div> <img class="gal-pic" src="images/plato1.png"> </div>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+
+  </section>
+
+  <div class="mobileShow">
+    TEXT OR IMAGE FOR MOBILE HERE
+    </div>
+    <div class="mobileHide">
+      TEXT OR IMAGE NOT FOR MOBILE HERE
+  </div>
 
   <!-- Press -->
 
@@ -220,6 +258,7 @@
 
   </section>
 
+  <!-- button.btn.first Button 1 -->
 
   <!-- Call to Action -->
 
